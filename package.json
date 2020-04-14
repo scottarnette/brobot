@@ -1,0 +1,26 @@
+{
+  "name": "brobot",
+  "version": "0.0.1",
+  "description": "Brobot",
+  "main": "brobot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/scottarnette/brobot.git"
+  },
+  "keywords": [
+    "discord",
+    "realm"
+  ],
+  "author": "scott.a.arnette@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/scottarnette/brobot/issues"
+  },
+  "homepage": "https://github.com/scottarnette/brobot#readme",
+  "dependencies": {
+    "discord.js": "^12.1.1"
+  }
+}
