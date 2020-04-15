@@ -12,4 +12,4 @@ RUN mkdir -p $DIR
 RUN curl https://papermc.io/api/v1/paper/1.15.2/183/download --output $DIR/paper.jar
 COPY ./docker/paper_config/* $DIR/
 
-CMD cd $DIR && java -jar paper.jar
+CMD cd $DIR && java -Xms1G -Xmx3G -d64 -jar paper.jar nogui
