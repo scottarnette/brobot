@@ -6,4 +6,5 @@ jobs:
     steps:
     - name: cicd
       run: |
+        pwd && ls -lash
         ./.cicd/build-push.sh
