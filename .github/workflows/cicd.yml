@@ -1,0 +1,7 @@
+on: [push, pull_request]
+
+jobs:
+  cicd:
+    runs-on: ubuntu-latest
+    steps:
+      ./.cicd/build-push.sh
