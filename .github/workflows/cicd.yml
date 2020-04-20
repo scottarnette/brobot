@@ -4,4 +4,6 @@ jobs:
   cicd:
     runs-on: ubuntu-latest
     steps:
-      ./.cicd/build-push.sh
+    - name: cicd
+      run: |
+        ./.cicd/build-push.sh
