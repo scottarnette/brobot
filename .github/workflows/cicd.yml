@@ -4,6 +4,8 @@ jobs:
   cicd:
     runs-on: ubuntu-latest
     steps:
+    - name: checkout
+      uses: actions/checkout@v2
     - name: cicd
       run: |
         pwd && ls -lash
