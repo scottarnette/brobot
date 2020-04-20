@@ -8,5 +8,4 @@ jobs:
       uses: actions/checkout@v2
     - name: cicd
       run: |
-        pwd && ls -lash
-        ./.cicd/build-push.sh
+        docker build -f ./docker/paper.Dockerfile -t server .
